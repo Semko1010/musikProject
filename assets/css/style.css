@@ -17,6 +17,19 @@ header {
     padding: 0 0 5vh 0;
 }
 
+.mobileMenu span {
+    width: 40px;
+    height: 2px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 0 0 auto;
+}
+
+.mobileMenu span {
+    padding: 2px 0;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -43,6 +56,10 @@ header nav ul li {
     margin: 0px 40px 0 0;
     font-size: 1rem;
     color: #867772;
+}
+
+header nav ul li:last-child {
+    display: none;
 }
 
 
@@ -431,7 +448,23 @@ video {
         top: 20px;
     }
     header nav ul {
-        display: none;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        margin: 0;
+        padding: 5vh 0 0 0;
+        transition: 1s;
+        height: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        z-index: 2;
+    }
+    header nav ul li {
+        margin: 5vh auto;
+        text-shadow: 0 0 10px black;
     }
     /*##########SECTION1##########*/
     .section1 {
@@ -745,5 +778,23 @@ video {
         background: #ebccc2;
         padding: 10px 25px;
         border-radius: 5px;
+    }
+    /*##########Header##########*/
+    .mobileMenu span {
+        width: 40px;
+        height: 2px;
+        background: #867772;
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0 0 auto;
+        padding: 2px 0;
+        border-radius: 3px;
+    }
+    .mobileMenu {
+        margin-left: auto;
+        padding: 20px 20px 0 0;
+    }
+    header nav ul li:last-child {
+        display: block;
     }
 }

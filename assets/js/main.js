@@ -1,5 +1,13 @@
-let span = document.getElementById("span")
+let ul = document.getElementById("ul")
 
-function about() {
-    span.style.outline = "1px solid white"
+function menu() {
+    ul.style.height = "100vh"
+    ul.style.opacity = "1"
+
+}
+
+function back() {
+    ul.style.height = "0"
+    ul.style.opacity = "0"
+
 }
