@@ -428,7 +428,7 @@ video {
 
 @media(max-width:375px) {
     body {
-        width: 375px;
+        width: 100vw;
         font-family: 'Work Sans', sans-serif;
     }
     /*##########Header##########*/
