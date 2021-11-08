@@ -19,6 +19,8 @@ header {
 
 header nav {
     display: flex;
+    position: sticky;
+    top: 0;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -264,8 +266,140 @@ aside a {
     margin: 15vh 0 0 20vw;
 }
 
+.inspiration div:last-child>div {
+    display: flex;
+}
+
+.inspiration div:last-child>div p {
+    color: #867772;
+    margin: 0 10px 10px 0;
+    padding: 2px 7px;
+    border: 1px solid white;
+    font-size: 14px;
+    font-weight: 200;
+}
+
 video {
     width: 60%;
 }
 
-.inspiration p {}
+.inspiration h3 {
+    color: #ebccc2;
+    font-weight: 400;
+}
+
+.inspiration h2 {
+    color: #ebccc2;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 20px 0 20px 0;
+}
+
+.inspiration p {
+    color: #867772;
+    padding-bottom: 10vh;
+}
+
+
+/*##########SECTION5##########*/
+
+.section5 {
+    display: flex;
+    background: #2e2e2e;
+}
+
+.section5 img {
+    width: 30%;
+    margin-left: 20vw;
+}
+
+.section5 div {
+    width: 500px;
+    margin: 10vh 0 0 30px;
+}
+
+.section5 h3 {
+    color: #ebccc2;
+}
+
+.section5 h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 20px 0;
+    color: #ebccc2;
+}
+
+.section5 p {
+    color: #867772;
+    width: 400px;
+    line-height: 30px;
+}
+
+
+/*##########SECTION6##########*/
+
+.section6 {
+    display: flex;
+    background: #2e2e2e;
+}
+
+.section6 img {
+    width: 30%;
+    margin-left: 0vw;
+    padding-bottom: 10vh;
+}
+
+.section6 div {
+    width: 433px;
+    margin: 10vh 0 0 20vw;
+}
+
+.section6 h3 {
+    color: #ebccc2;
+}
+
+.section6 h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 20px 0;
+    color: #ebccc2;
+}
+
+.section6 p {
+    color: #867772;
+    width: 400px;
+    line-height: 30px;
+}
+
+
+/*##########SHOP##########*/
+
+.shop {
+    text-align: center;
+    background: #2e2e2e;
+    width: 45vw;
+    height: 77.3vh;
+    margin-left: auto;
+}
+
+.shop h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ebccc2;
+}
+
+.shop p:nth-of-type(1) {
+    color: #867772;
+    margin: 20px 0;
+}
+
+.shop p:nth-of-type(2) {
+    color: #867772;
+    margin-bottom: 10px;
+}
+
+.shop button {
+    background: #ebccc2;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
