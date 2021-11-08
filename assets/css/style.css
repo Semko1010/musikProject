@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 1440px;
+    width: 100vw;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -503,7 +503,7 @@ video {
         z-index: 1;
     }
     aside a {
-        padding: 0vh 0 5vh 10px;
+        padding: 0vh 0 40px 10px;
         color: white;
         text-decoration: none;
         font-size: 10px;
@@ -754,12 +754,12 @@ video {
         width: 100vw;
         height: 100vh;
         margin-left: auto;
-        padding-bottom: 15vh;
+        padding-bottom: 5vh;
     }
     .shop img {
         padding-top: 35vh;
         margin: 0 auto;
-        width: 375px;
+        width: 100vw;
     }
     .shop h2 {
         font-size: 2rem;
