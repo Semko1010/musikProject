@@ -19,8 +19,6 @@ header {
 
 header nav {
     display: flex;
-    position: sticky;
-    top: 0;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -28,6 +26,8 @@ header nav {
 header nav img {
     margin: 0px 0 0 5vw;
     z-index: 1;
+    position: fixed;
+    top: 50px;
 }
 
 header nav ul {
@@ -35,6 +35,8 @@ header nav ul {
     list-style: none;
     margin: 50px 2vw 0 0;
     z-index: 1;
+    position: fixed;
+    right: 0;
 }
 
 header nav ul li {
@@ -402,4 +404,206 @@ video {
     background: #ebccc2;
     padding: 10px 25px;
     border-radius: 5px;
+}
+
+
+/*##########@Media##########*/
+
+@media(max-width:375px) {
+    body {
+        width: 375px;
+        font-family: 'Work Sans', sans-serif;
+    }
+    /*##########Header##########*/
+    header {
+        background: #2e2e2e;
+        padding: 0 0 5vh 0;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    header nav img {
+        margin: 0px 0 0 5vw;
+        z-index: 1;
+        position: fixed;
+        top: 20px;
+    }
+    header nav ul {
+        display: none;
+    }
+    /*##########SECTION1##########*/
+    .section1 {
+        padding: 10vh 0 0 0;
+        margin: 0 0 0 0;
+        display: flex;
+        background: #2e2e2e;
+    }
+    .section1 h2 {
+        position: absolute;
+        z-index: 1;
+        left: 30vw;
+        top: 15vh;
+        font-size: 1.2rem;
+        color: #867772;
+        font-weight: 300;
+    }
+    .section1 img {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        padding: 20vh 0 0 0;
+    }
+    .beyond {
+        padding: 5vh 0 10vh 30vw;
+        color: #867772;
+        font-size: 1.5rem;
+    }
+    aside {
+        display: flex;
+        flex-direction: column;
+        margin: 15vh 0 10vh 0vw;
+        padding-left: 0vw;
+        position: absolute;
+        position: fixed;
+        z-index: 1;
+    }
+    aside a {
+        padding: 0vh 0 5vh 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .divLine {
+        height: 40px;
+        width: 1px;
+        background: #867772;
+        position: absolute;
+    }
+    .section1 span {
+        display: inline;
+        width: 15px;
+        height: 15px;
+        background: #2e2e2e;
+        border-radius: 15px;
+        border: 1px solid #867772;
+        outline-offset: 3px;
+        position: absolute;
+    }
+    .divLine:nth-of-type(1) {
+        left: 5px;
+        top: 10px;
+    }
+    .divLine:nth-of-type(2) {
+        left: 5px;
+        top: 63px;
+    }
+    .divLine:nth-of-type(3) {
+        left: 5px;
+        top: 113px;
+    }
+    .divLine:nth-of-type(4) {
+        left: 5px;
+        top: 165px;
+    }
+    .section1 span:nth-of-type(1) {
+        top: 20px;
+        left: 17px;
+    }
+    .section1 span:nth-of-type(2) {
+        top: 75px;
+        left: 17px;
+    }
+    .section1 span:nth-of-type(3) {
+        top: 125px;
+        left: 17px;
+    }
+    .section1 span:nth-of-type(4) {
+        top: 175px;
+        left: 17px;
+    }
+    .section1 span:nth-of-type(5) {
+        top: 225px;
+        left: 17px;
+    }
+    .span1 {
+        outline: 1px solid white;
+        outline-offset: 3px;
+    }
+    .span2 {
+        outline: 1px solid white;
+        outline-offset: 3px;
+    }
+    .span3 {
+        outline: 1px solid white;
+        outline-offset: 3px;
+    }
+    .span4 {
+        outline: 1px solid white;
+        outline-offset: 3px;
+    }
+    .span5 {
+        outline: 1px solid white;
+        outline-offset: 3px;
+    }
+    /*##########SECTION2##########*/
+    .section2 {
+        background: #2e2e2e;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 20vh 0;
+    }
+    .section2 img {
+        width: 70%;
+        margin: 5vh auto 0 auto;
+    }
+    .section2 div {
+        margin: 15vh 0 0 8vw;
+    }
+    .section2 h2 {
+        color: #ebccc2;
+        margin: 0 0 30px 0;
+        font-size: 1.2rem;
+        font-weight: 300;
+        text-align: center;
+    }
+    .section2 p {
+        width: 310px;
+        color: #867772;
+        line-height: 25px;
+        text-align: center;
+    }
+    /*##########LoungerSite##########*/
+    .voyager {
+        width: 55vw;
+        object-fit: fill;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+    }
+    .loungersection2 {
+        background: #2e2e2e;
+        width: 45vw;
+        height: 77.3vh;
+        margin-left: auto;
+    }
+    .loungersection2 h2 {
+        padding: 5vh 0 100px 50px;
+        color: #ebccc2;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .loungersection2 p {
+        width: 500px;
+        padding: 0 0 0vh 50px;
+        color: #867772;
+        line-height: 30px;
+    }
+    .loungerSpan2 {
+        top: 0px;
+        left: 0;
+        outline: 1px solid white;
+        outline-offset: 3px;
+    }
 }
