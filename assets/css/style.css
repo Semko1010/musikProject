@@ -85,7 +85,7 @@ aside {
 }
 
 aside a {
-    padding: 0vh 0 8vh 0;
+    padding: 0vh 0 9.3vh 0;
     color: white;
     text-decoration: none;
 }
@@ -223,7 +223,7 @@ aside a {
 .loungersection2 {
     background: #2e2e2e;
     width: 45vw;
-    height: 78.4vh;
+    height: 77.3vh;
     margin-left: auto;
 }
 
@@ -247,3 +247,25 @@ aside a {
     outline: 1px solid white;
     outline-offset: 3px;
 }
+
+
+/*##########Inspiration##########*/
+
+.inspiration {
+    padding: 10vh 0 0 0;
+    background: #2e2e2e;
+}
+
+.inspiration div:first-child {
+    text-align: center;
+}
+
+.inspiration div:last-child {
+    margin: 15vh 0 0 20vw;
+}
+
+video {
+    width: 60%;
+}
+
+.inspiration p {}
